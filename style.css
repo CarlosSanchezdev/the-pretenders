@@ -1,0 +1,11 @@
+body{
+    margin: 0px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    height: 50vh;
+    width: 100%;
+    background-color: #FF7F99;
+}
