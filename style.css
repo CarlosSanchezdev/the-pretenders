@@ -7,7 +7,10 @@
     border-radius: 200px;
 
 }
-
+.img_ln {
+    height: 4vh;
+    padding-top: 2vh;
+}
 .white {
     color:white;
 }
