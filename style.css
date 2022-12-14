@@ -74,8 +74,8 @@ footer{
 .photo_main img {
     object-fit: cover;
     border-radius: 255px 0px 255px 255px;
-    width: 53vh;
-    height: 26vw;
+    width: 510px;
+    height: 510px;
     overflow: hidden;
 }
 
@@ -113,3 +113,65 @@ footer{
     padding: 1px;
     color: white;
 }
+/* @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap'); */
+
+
+header{
+    background:#ff7f99;
+    height: 100px;
+}
+
+.header1{
+   display: flex;
+   justify-content: center;
+   gap: 30%;
+   align-items: center;
+}
+
+ .header-logo{
+    color: white;
+    margin-top: 30px;
+    margin-left: 20px;
+    align-items: center;
+    text-align:center;
+    font-size: 25px;
+    font-family:"jost";
+
+ }
+
+ li{
+    /* float: left; */
+    display: flex;
+    justify-content: center;
+    list-style:none;
+    padding: 20px;
+    
+ }
+
+ .menu{
+   display: flex;
+ }
+ a{
+    text-decoration:none;
+    color:white;
+    text-align: center;
+    margin: 0px;
+ }
+ .borde{
+    height:20px;
+    width: 60px; 
+    border:1px solid;
+    border-radius:15px;
+    border-color: #d69885;
+    background: rgba(255, 202, 65, 0.35);
+    text-align: center;
+    
+
+ }
+.coloryellow{
+    color:#ffca41;
+}
+
+
+    
+  
