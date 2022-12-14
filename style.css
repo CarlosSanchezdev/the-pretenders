@@ -1,8 +1,53 @@
+<style> @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap'); </style>
+
 body{
-    margin:0%;
+    
 
 }
 header{
-    background:red;
+    background:#ff7f99;
+    height: 100px;
+    
+    
+}
+ .header-logo{
+    color: white;
+    float:left;
+    margin-top: 30px;
+    margin-left: 20px;
+    align-items: center;
+    text-align:center;
+    font-size: 25px;
+    font-style:Josh;
+
+ }
+
+ li{
+    float: left;
+    list-style:none;
+    padding: 20px;
+    
+ }
+ .header-nav{
+    float: right;
+    margin-bottom:300px;
+    margin-right:20px;
+ }
+   
+ a{
+    text-decoration:none;
+    color:white;
+ }
+ .borde{
+    height: 300px;
+    border:1px solid;
+    border-radius:15px;
+    border-color: #d69885;
+ }
+.coloryellow{
+    color:#ffca41;
 }
 
+
+    
+  
