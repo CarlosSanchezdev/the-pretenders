@@ -1,7 +1,21 @@
 *{
     margin:0;
     padding:0;
+    font-family: 'Jost', sans-serif;
 }
+
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer{
+    width: 1200px;
+    background-color: #FF7F99;
+}
+
 .photo {
     height: 30vh;
     border-radius: 200px;
@@ -42,15 +56,4 @@
 }
 .pad2 {
     padding-right: 2vw;
-}
-body{
-    margin: 0px;
-}
-
-footer{
-    position: fixed;
-    bottom: 0px;
-    height: 90vh;
-    width: 100%;
-    background-color: #FF7F99;
 }
