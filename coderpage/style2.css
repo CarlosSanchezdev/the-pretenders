@@ -5,7 +5,7 @@
 }
 
 html{
-    font-family: jo;
+    font-family: 'Jost', sans-serif;
 }
 
 .container{
@@ -53,7 +53,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: left;
-    
+    gap: 10px;
 }
 
 main{
@@ -69,12 +69,13 @@ main{
     background-color: #FFCA41;
     padding: 1px;
     color: white;
-    margin-left: 50px;
+}
+
+.pointer{
+    cursor: pointer;
 }
 
 .icono{
-    height: 10px;
-    width: 10px;
-    vertical-align: middle;
-
+    height: 32px;
+    width: 32px;
 }
