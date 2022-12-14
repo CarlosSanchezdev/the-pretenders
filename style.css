@@ -1,4 +1,4 @@
-<style> @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap'); </style>
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
 
 body{
     
@@ -7,42 +7,54 @@ body{
 header{
     background:#ff7f99;
     height: 100px;
-    
-    
 }
+
+.header1{
+   display: flex;
+   justify-content: center;
+   gap: 30%;
+   align-items: center;
+}
+
  .header-logo{
     color: white;
-    float:left;
     margin-top: 30px;
     margin-left: 20px;
     align-items: center;
     text-align:center;
     font-size: 25px;
-    font-style:Josh;
+    font-family:"jost";
 
  }
 
  li{
-    float: left;
+    /* float: left; */
+    display: flex;
+    justify-content: center;
     list-style:none;
     padding: 20px;
     
  }
- .header-nav{
-    float: right;
-    margin-bottom:300px;
-    margin-right:20px;
+
+ .menu{
+   display: flex;
  }
-   
  a{
     text-decoration:none;
     color:white;
+    text-align: center;
+    margin: 0px;
  }
  .borde{
-    height: 300px;
+    height:20px;
+    width: 60px; 
     border:1px solid;
     border-radius:15px;
     border-color: #d69885;
+    background: rgba(255, 202, 65, 0.35);
+    text-align: center;
+    
+
  }
 .coloryellow{
     color:#ffca41;
