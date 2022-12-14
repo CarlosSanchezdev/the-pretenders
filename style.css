@@ -23,8 +23,8 @@ body {
 .photo_main img {
     object-fit: cover;
     border-radius: 255px 0px 255px 255px;
-    width: 510px;
-    height: 511px;
+    width: 53vh;
+    height: 26vw;
     overflow: hidden;
 }
 
@@ -53,8 +53,8 @@ body {
 }
 
 .button1 {
-    width: 182px;
-    height: 50px;
+    width: 19vh;
+    height: 2.6vw;
     font-size: 15px;
     border: none;
     border-radius: 31px;
