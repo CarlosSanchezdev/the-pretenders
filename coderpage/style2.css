@@ -81,7 +81,9 @@ main {
     height: 32px;
     width: 32px;
 }
-
+.romanes {
+    text-decoration: line-through;
+}
 footer {
     width: 100%;
     background-color: #FF7F99;
