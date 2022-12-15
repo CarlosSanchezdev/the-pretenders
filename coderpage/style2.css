@@ -91,13 +91,13 @@ footer {
     height: 30vh;
     border-radius: 200px;
     transition: all 1s;
-    
 }
 
 .photo:hover{
     height: 38vh;
-    
 }
+
+
 
 .photoanchor{
     display: flex;
