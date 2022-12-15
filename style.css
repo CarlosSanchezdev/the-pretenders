@@ -23,8 +23,8 @@ body {
 .photo_main img {
     object-fit: cover;
     border-radius: 255px 0px 255px 255px;
-    width: 53vh;
-    height: 26vw;
+    width: 510px;
+    height: 510px;
     overflow: hidden;
 }
 
