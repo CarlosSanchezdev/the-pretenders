@@ -1,16 +1,68 @@
-* {
-    margin: 0;
-    padding: 0;
+*{
+    margin:0;
+    padding:0;
     font-family: 'Jost', sans-serif;
 }
-body {
-    
+
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer{
+    width: 100%;
+    background-color: #FF7F99;
+}
+
+.photo {
+    height: 30vh;
+    border-radius: 200px;
+
+}
+.img_ln {
+    height: 4vh;
+    padding-top: 2vh;
+}
+.white {
+    color:white;
+}
+.size {
+    font-size: 2.5vh;
+}
+.coders {
+    padding: 3vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10% 0 10%;
+}
+.coder_column {
+    display: flex;
+    flex-direction:column ;
+    align-items: center;     
+}
+.coder_column2 {
+    display: flex;
+    align-items: center;    
+}
+.columnText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 2vw;
+}
+.pad1 {
+    padding-left: 2vw;
+}
+.pad2 {
+    padding-right: 2vw;
 }
 
 .main_body {
     display: flex;
     justify-content: center;
-    margin: 20px;
+    padding: 50px;
 }
 
 .main_body article {
@@ -62,3 +114,68 @@ body {
     padding: 1px;
     color: white;
 }
+/* @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap'); */
+
+
+header{
+    background:#ff7f99;
+    height: 100px;
+}
+
+.header1{
+   display: flex;
+   justify-content: center;
+   gap: 30%;
+   align-items: center;
+}
+
+ .header-logo{
+    color: white;
+    margin-top: 30px;
+    margin-left: 20px;
+    align-items: center;
+    text-align:center;
+    font-size: 25px;
+    font-family:"jost";
+
+ }
+
+ li{
+    /* float: left; */
+    display: flex;
+    justify-content: center;
+    list-style:none;
+    padding: 20px;
+    
+ }
+
+ .menu{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ a{
+    text-decoration:none;
+    color:white;
+    text-align: center;
+    margin: 0px;
+ }
+ .borde{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 230px;
+    border:1px solid;
+    border-radius:50px;
+    border-color: #d69885;
+    background: rgba(255, 202, 65, 0.35);
+    text-align: center;
+    padding: 0;
+ }
+.coloryellow{
+    color:#ffca41;
+}
+
+
+    
+  
