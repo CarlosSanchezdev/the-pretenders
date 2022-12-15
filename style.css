@@ -19,8 +19,23 @@ footer{
 .photo {
     height: 30vh;
     border-radius: 200px;
-
+    transition: all 1s;
 }
+
+.photo:hover{
+    height: 38vh;
+}
+
+.photoanchor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    width: 30vh;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
 .img_ln {
     height: 4vh;
     padding-top: 2vh;
