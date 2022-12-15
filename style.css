@@ -35,6 +35,7 @@ footer{
     padding: 3vw;
     display: flex;
     justify-content: space-between;
+    margin: 0 10% 0 10%;
 }
 .coder_column {
     display: flex;
@@ -61,7 +62,7 @@ footer{
 .main_body {
     display: flex;
     justify-content: center;
-    margin: 20px;
+    padding: 50px;
 }
 
 .main_body article {
@@ -159,14 +160,12 @@ header{
  }
  .borde{
     height:20px;
-    width: 60px; 
+    width: 80px; 
     border:1px solid;
-    border-radius:15px;
+    border-radius:50px;
     border-color: #d69885;
     background: rgba(255, 202, 65, 0.35);
     text-align: center;
-    
-
  }
 .coloryellow{
     color:#ffca41;
